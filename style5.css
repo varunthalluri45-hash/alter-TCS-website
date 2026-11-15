@@ -1,0 +1,118 @@
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    grid-template-rows: 60px 200px;
+}
+h1 {
+    color: white;
+    text-align:center;
+}
+h2 {
+    color:skyblue;
+    text-align:center;
+}
+body {
+    font-family:'calibri', sans-serif;
+    background-color: transparent;
+    background-image: url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px;
+    text-align:left;
+}
+
+.signup-card {
+    background-color: #2d2d2db5;
+    padding:  50px;
+    border-radius: 30px;
+    border-radius: 30px;
+    width: 410px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.566);
+}
+.input-group {
+    margin-bottom: 30px;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    background:transparent;
+    border-bottom: 1px solid skyblue;
+    color:white;
+    outline: none;
+}
+.input-group input::placeholder {
+    color: #fff;
+}
+.form-row {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.form-row .input-group {
+    flex: 1;
+}
+.select-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.select-wrapper::after {
+    content: '▼';
+    font-size: 10px;
+    color: #0d162a;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+select {
+    width:100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid skyblue;
+    color: white;
+    font-size: 15px;
+    padding: 10px 0;
+    outline: none;
+}
+.btn-signup {
+    background-color: white;
+    color: skyblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.signup-card-container {
+    position: relative;
+}
+.signup-card {
+    position:absolute;
+    top: 190px;
+    left: 430px;
+}
+
+.white-wrapper {
+    background-color: #fbf8f8;
+    background-image:url('https://aithority.com/wp-content/uploads/2020/03/TCS-Named-a-Leader-in-2020-Gartner-Magic-Quadrant-for-Managed-Workplace-Services-AsiaPacific.jpg');
+    color: #000000;              /* Ensures heading and label text are dark */
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 750px;            /* Adjust width as needed */
+    margin: 40px auto;           /* Centers the container horizontally */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.white-wrapper h1 {
+    color: white;
+    margin-bottom: 940px;
+    text-align: center;
+}

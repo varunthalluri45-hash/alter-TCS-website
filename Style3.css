@@ -1,0 +1,59 @@
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: rgb(255, 123, 0);
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+
+}
+a {
+    color:white;
+}
+    body {
+    font-family:'calibri', sans-serif;
+    background-color: #fff;
+    background-image: url('https://img.magnific.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?semt=ais_hybrid&w=740&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+    text-align:center;
+}
+
+h1 {
+    color:white;
+    font-family:Arial, sans-serif;
+    text-align: center;
+}
+h2 {
+    color:white;
+    font-family:Arial, sans-serif;
+    text-align: center;
+}
+h3 {
+    color:white;
+    font-family:Arial, sans-serif;
+    text-align: center;
+}
+p {
+    color:white;
+    font-family:calibri;
+    
+}
+input[type="text"],input[type="email"],input[type="number"],
+select {
+    width: 30%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}

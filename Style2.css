@@ -1,0 +1,154 @@
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    grid-template-rows: 60px 200px;
+}
+a {
+    color: white;
+    
+}
+
+ body {
+    font-family:'calibri', sans-serif;
+    background-color: #fff;
+    background-image: url('https://wallpaperaccess.com/full/13039807.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px;
+    text-align:left;
+}
+
+
+h1 {
+    color:orange;
+    font-family:Arial, sans-serif;
+    text-align: left;
+}
+h2 {
+    color:orange;
+    font-family:Arial, sans-serif;
+    text-align: left;
+}
+h3 {
+    color:black;
+    font-family:Arial, sans-serif;
+    text-align: center;
+}
+p {
+    color:white;
+    font-family:calibri;  
+}
+
+input[type="submit"] {
+    background-color: darkorange;
+    border-radius:10px ;
+    color: white;
+    padding: 5px 10px;
+}   
+
+input[type="text"],input[type="email"],input[type="number"],
+select {
+    width: 30%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+    
+}
+label {
+    color:white;
+    font-size: 18px;
+}
+
+button {
+    background-color: darkorange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* Right Side Login Form Card */
+.login-card {
+    background-color: #0c0c0cb5;
+    padding:  25px;
+    border-radius: 20px;
+    width: 310px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.566)
+}
+.login-card h3 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 24px;
+    background:s rgb(246, 9, 9);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.input-group {
+    margin-bottom: 30px;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    background:transparent;
+    border-bottom: 1px solid #ef7c08;
+    color:white;
+    outline: none;
+}
+.input-group input::placeholder {
+    color: #fff;
+}
+.btn-login {
+    background-color: #ef7000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+nav h2 {
+    margin: -100;
+}
+
+.login-card-container {
+    position: relative;
+}.login-card {
+    position:absolute;
+    top:28%;
+    left:65%;
+}
+.create {
+    background-color: transparent;
+    color: orange;
+
+    padding: 8px 15px;
+    border: 1px solid orange;
+    border-radius: 5px;
+
+    cursor: pointer;
+    font-size: 15px;
+}
+.btn-join {
+    background-color: #ef7000;
+    color:white;
+    padding:10px 25px;
+    cursor:pointer;
+}
